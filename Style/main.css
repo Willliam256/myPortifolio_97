@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.contentHolder{
+	box-shadow: 1px 1px 5px -1px rgba(100, 100, 100, 0.2), -1px -1px 5px -1px rgba(0, 0, 0, 0.2) inset;
+	margin: auto;
+	background: #fff;
+}
+
+.bio_info{
+	/*height: 720px;*/
+}
+
+.about_me{
+	/*height: 720px;*/
+	padding: 30px;
+
+}
+.about_me .info{
+	padding: 50px;
+}
+
+
+.picture{
+	height: 360px;
+
+}
+.contacts{
+	height: 360px;
+	
+}
+.contacts h6{
+	text-align: center;
+}
+.contacts .all_info{
+	padding-top: 30px;
+	margin-left: 10px;
+	margin: auto;
+	
+}
+
+.contacts .all_info .icons img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;	
+}
+.contacts .all_info .icons{
+	display: flex;
+	justify-content: center;
+}
+.contacts .all_info img:hover{
+	transform: rotate(45deg) scale(1.5);
+}
+
+.contacts .all_info .other_profiles .icons img{
+	width: 27px;
+	height: 27px;
+}
+
+.contacts .all_info .socials{
+	margin-top: 50px;
+}
+
+.contacts .all_info .socials .icons img{
+	width: 19px;
+	height: 19px;
+}
+
+
+.card{
+	box-shadow: 1px 1px 5px -1px rgba(100, 100, 100, 0.2), -1px -1px 5px -1px rgba(0, 0, 0, 0.2);
+	height: 340px;
+	width: 260px;
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+
+.card .pic{
+	box-shadow: 1px 1px 5px -1px rgba(100, 100, 100, 0.5), -1px -1px 5px -1px rgba(0, 0, 0, 0.5);
+	height: 330px;
+	width: 250px;
+	margin: auto;
+	background: url(../images/me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card .details {
+	box-shadow: 1px 1px 5px -1px rgba(100, 100, 100, 0.2), -1px -1px 5px -1px rgba(0, 0, 0, 0.2) inset;
+	height: 85px;
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 3px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	background: rgba(0, 0, 0, 0.5);	
+	text-align: center;
+}
+
+.card .details h5{
+	margin-top: 10px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.0);
+}
+.card .details h6{
+	color: #e1e1e1;
+}
